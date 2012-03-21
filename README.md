@@ -79,4 +79,4 @@ This will turn on (status=1) or off (status=0) a device connected to the PIN (X+
 No response is sent in case of failure.
 
 ## Android device (without ADK)
-This project could be used with [DomoticaArduinoAndroid](https://github.com/emanuele-palazzetti/DomoticaArduinoAndroid) to manage devices with an Android smartphone. Because of this project uses JSON parsing and Android HttpClient, it is *NOT* necessary that your Arduino is an ADK microcontroller.
+This project could be used with [DomoticaArduinoAndroid](https://github.com/emanuele-palazzetti/DomoticaArduinoAndroid) to manage devices with an Android smartphone. Because this project uses JSON parsing and Android HttpClient, it is *NOT* necessary that your Arduino is an ADK microcontroller.
