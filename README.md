@@ -31,10 +31,10 @@ When you connect a device, for example a LED or a transistor to your Arduino, yo
 All constants are an array object because each array index is referred to an Arduino PIN. In example, the first index value of each arrays are respectively, the enabled status, the device type, the device name and the status of the device (on/off) of the first device connected on the first Arduino PIN.
 
 In particular:
-1.activedDevice is used to set if a PIN is enabled or not. Set the PIN to 1 to enable digitalWrite OUTPUT on that PIN.
-1.typeDevice set for that device under which type it should be classified
-1.nameDevice is the device name
-1.statusDevice represents if the device is turned on or off
+1. activedDevice is used to set if a PIN is enabled or not. Set the PIN to 1 to enable digitalWrite OUTPUT on that PIN.
+1. typeDevice set for that device under which type it should be classified
+1. nameDevice is the device name
+1. statusDevice represents if the device is turned on or off
 
 ## Usage (API)
 After the sketch is uploaded in your Arduino, you can access to these function using GET method with a traditional web browser:
