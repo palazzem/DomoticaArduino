@@ -1,9 +1,8 @@
 # Domotica Arduino
-Domotica Arduino is a program written for all Arduino devices.
-It let you to control some physical devices in your home with PC or smartphone. All commands are sent using GET method and received responses are all JSON objects string.
+Domotica Arduino is a program written for all Arduino devices. It allows you to control some physical devices in your home with PC or smartphone. All commands are sent using GET method and received responses are all JSON objects string.
 
 ## Setup before uploading
-In order to use all of the proposed feature, you should edit some parameters before uploading the "sketch" in you Arduino. You should set these line of code for each section.
+In order to use all of the proposed feature, you should edit some parameters before uploading the "sketch" in you Arduino. You should set these lines of code for each section.
 
 ### Network parameters
 Configure Arduino with your network:
